@@ -1,0 +1,51 @@
+<html>
+    <body>
+        
+        <video autoplay muted loop id="myVideo">
+            <source src="C:\Users\Dell\Downloads\racso.mp4.mp4" type="video/mp4"></video>
+    
+    
+    <style>
+        #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 50%;
+  min-height: 50%;
+}
+    
+        .container{
+            display:grid;
+            width:50%;
+            height: 400px;
+            border: 5px solid rgb(254, 4, 183);
+            background-image: url("C:\Users\Dell\Downloads\racso.mp4.mp4");
+            background-color: aquamarine;
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: ;
+            grid-template-areas: "vannakam vannakam vannakam""maamey maameyu";
+            
+            margin-left: 25%;
+            margin-top: %;
+        }
+        .child{
+            background-color:chartreuse;
+            text-align:center;
+            color:rgb(89, 2, 250);
+            border:5px solid green;
+            border-radius:20px;
+            font-size:large;
+        }
+        .item1{grid-area: vannakam;}
+        .item2{grid-area:maamey}
+        .item3{grid-area: machii;}
+        </style>
+    <div class="container">
+    <div class="child item1">vannakam</div>
+    <div class="child item2">maamey</div>
+    <div class="child item3">durrrrr</div>
+    <div class="child item4">machii</div>
+    <div class="child">machii</div>
+    </body>
+</html>
